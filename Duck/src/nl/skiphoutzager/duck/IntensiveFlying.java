@@ -4,7 +4,7 @@ public class IntensiveFlying implements FlyBehavior{
 
 	@Override
 	public void fly() {
-		System.out.println("Wow. Flying is soo intensive!");
+		System.out.println("IntensiveFlying::fly has been called!");
 	}
 
 }
